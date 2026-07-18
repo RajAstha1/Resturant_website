@@ -15,7 +15,7 @@ window.addEventListener("load", function () {
 
         setTimeout(function () {
 
-            alert("🍽 Welcome to Royal Feast Restaurant!\nEnjoy delicious food and a wonderful dining experience.");
+            alert("🍽 Welcome to Astha Kitchen!\nEnjoy delicious food and a wonderful dining experience.");
 
         }, 500);
 
@@ -292,6 +292,6 @@ this.style.boxShadow="0 10px 20px rgba(0,0,0,0.4)";
 // ==========================
 
 console.log("====================================");
-console.log("Royal Feast Restaurant Website");
+console.log("Astha Kitchen Website");
 console.log("Developed using HTML, CSS & JavaScript");
 console.log("====================================");
