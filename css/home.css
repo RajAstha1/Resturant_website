@@ -407,87 +407,47 @@ body{
     color:#FFD700;
 }
 
-/* ===========================
-   FOOTER
-=========================== */
-
-footer{
-
-    background:#000;
-
-    text-align:center;
-
-    padding:45px 20px;
-
-    line-height:2;
+footer {
+    background: #0d0d0d;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 50px;
 }
 
-footer h2{
-
-    color:#FFD700;
-
-    margin-bottom:15px;
+footer h2 {
+    color: #FFD700;
+    margin-bottom: 10px;
+    font-size: 32px;
 }
 
-footer p{
-
-    color:#ccc;
+footer p {
+    color: #ddd;
+    margin: 8px 0;
+    font-size: 16px;
 }
 
-/* ===========================
-   RESPONSIVE
-=========================== */
-
-@media(max-width:900px){
-
-.hero h1{
-
-font-size:42px;
-
+.footer-contact {
+    margin: 25px 0;
 }
 
-.hero p{
-
-font-size:18px;
-
+.social-icons {
+    margin: 25px 0;
 }
 
-.navbar{
-
-flex-direction:column;
-
-gap:15px;
-
-padding:20px;
-
+.social-icons a {
+    text-decoration: none;
+    font-size: 28px;
+    margin: 0 12px;
+    transition: 0.3s;
 }
 
-.nav-links{
-
-flex-wrap:wrap;
-
-justify-content:center;
-
-gap:18px;
-
+.social-icons a:hover {
+    transform: scale(1.2);
 }
 
-.feature-card,
-.dish-card,
-.stat-box{
-
-width:100%;
-
-max-width:350px;
-
-}
-
-.about h2,
-.features h2,
-.dishes h2{
-
-font-size:34px;
-
-}
-
+footer hr {
+    width: 80%;
+    margin: 25px auto;
+    border: 1px solid #444;
 }

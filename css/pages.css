@@ -547,27 +547,49 @@ body{
    FOOTER
 =========================== */
 
-footer{
-
-    background:#000;
-
-    text-align:center;
-
-    padding:40px 20px;
-
-    line-height:2;
+footer {
+    background: #0d0d0d;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 50px;
 }
 
-footer h2{
-
-    color:#FFD700;
-
-    margin-bottom:10px;
+footer h2 {
+    color: #FFD700;
+    margin-bottom: 10px;
+    font-size: 32px;
 }
 
-footer p{
+footer p {
+    color: #ddd;
+    margin: 8px 0;
+    font-size: 16px;
+}
 
-    color:#ccc;
+.footer-contact {
+    margin: 25px 0;
+}
+
+.social-icons {
+    margin: 25px 0;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 28px;
+    margin: 0 12px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+footer hr {
+    width: 80%;
+    margin: 25px auto;
+    border: 1px solid #444;
 }
 
 /* ===========================
